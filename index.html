@@ -1,0 +1,27 @@
+<head> 
+    <script src="js/langSession.js"></script>
+    <script src="js/SetPageLang.js"></script>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/landing.css">
+</head>
+<body onload='LanguagePreview()'>
+    <div id="lang-select-wrapper">
+        <div id="select-txt">Select a language</div>
+        <div id="lang-select">
+            <div id="en" onmouseover="LanguagePreview('en')" onclick="LangSessionSet('en')">English<br></div>
+            <div id="pl" onmouseover="LanguagePreview('pl')" onclick="LangSessionSet('pl')">Polski<br></div>
+            <div id="tok" onmouseover="LanguagePreview('tok')" onclick="LangSessionSet('tok')">toki pona<br></div>
+        </div>
+    </div>
+    <div id="container">
+        <div id="warning">
+            This site requires JavaScript 
+            in order to function properly.<br><br>
+            The site is supposed
+            to resemble old early-2000's 
+            GeoCities sites, which may cause
+            eye strain for some people.
+        </div>
+        <a href="home.html"><div id="continue">Continue?</div></a>
+    </div>
+</body>

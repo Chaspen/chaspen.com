@@ -1,0 +1,113 @@
+
+ 
+
+body {
+    text-align: center;
+    background-color: #171517;
+    color: #f8f7ee;
+}
+
+#container {
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#warning {
+    font-size: 20px;
+    width: 600px;
+
+}
+
+#continue, #continue:visited, a {
+    color: #f8f7ee;
+    margin-top: 50px;
+    font-size: 30px;
+    transition: 0.0s;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    text-decoration-line: none;
+}
+
+#continue:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+#select-txt {
+    font-size: 30px;
+}
+
+#lang-select-wrapper {
+    animation-duration: 0s;
+    position: absolute;
+    animation-direction: forward;
+    animation-fill-mode: forwards;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#container {
+    display: none;
+    animation-duration: 0s;
+    animation-fill-mode: forwards;
+    animation-direction: forwards;
+
+}
+
+#lang-select {
+    text-align:center;
+}
+
+#en, #pl, #tok {
+    display:inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    image-rendering: crisp-edges;
+}
+
+.flag {
+
+    width: 50px;
+}
+
+/*animations
+
+@keyframes FadeOut {
+    from {
+        opacity: 1;
+        visibility: visible;
+
+    }
+    to {
+        opacity: 0;
+        visibility: hidden
+
+    }
+}
+
+@keyframes FadeIn {
+    from {
+        opacity: 0;
+        visibility: hidden;
+
+    }
+    to {
+        opacity: 1;
+        visibility: visible
+
+    }
+}
+
+*/
+
+

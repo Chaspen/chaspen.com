@@ -1,0 +1,25 @@
+{
+    "landing": {
+        "warning": "This site requires JavaScript in order to function properly.<br><br>The site is supposed to resemble old early-2000's GeoCities sites, which may cause eye strain for some people.",
+        "continue": "Continue?"
+    },
+    "home": {
+        "main-txt" : "HAIII!!! ^-^ welcome 2 my cool awesome WEBSITE!!!!!<br>click on the link below for my refsheet and other links!!<br><br>or u could find out more <a href='about.html'>about me</a> :3",
+        "sona": "my sona!!!",
+        "links": "links!!!"
+    },
+    "sona": {
+        "top-text": "red panda | she/they | 5'9\"/175cm",
+        "credit": "art by"
+    },
+    "links": {
+        "socials": "socials",
+        "media": "media",
+        "software": "software"
+    },
+    "about": {
+        "p1": "hii!!! im chloe/noelle (she/they), a red panda who mostly does web development, but sometimes dabbles in other stuff as well; python, lua, c/c++, occasionaly (attempting) software ports and sysadmin stuff, and many more!",
+        "p2": "if if wasn't somehow already obvious, i really, <b>REALLY</b> like red pandas, the gal you see on the left is Akana, my pride and joy, my baby, my ideal self, she is me i think :3 ",
+        "p3": "my workflow depends on my setup and what exactly i'm writing in, the software i used to make this site is as follows:"
+    }
+}
