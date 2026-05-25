@@ -1,3 +1,4 @@
+
 SessionLanguage = sessionStorage.getItem("language")
 
 var Sona;
@@ -30,6 +31,7 @@ async function getData(onfetch) {
             Links = json.home.links;
         } else if (window.location.pathname.slice(0,5) == "/sona") {
             document.getElementById("desc").innerHTML = json.sona['top-text']
+            document.getElementById("quality").innerHTML = json.sona.preview;
             let gallery = document.getElementById('gallery');
             loopDescUntilTag(gallery, 'P', element => {
                 let originalText = element.innerHTML;
@@ -46,9 +48,22 @@ async function getData(onfetch) {
             document.getElementById('p2').innerHTML = json.about.p2
             document.getElementById('p3').innerHTML = json.about.p3
         }
+
         onfetch();
     } catch (error) {
         console.error(error.message);
+        if (sessionStorage.getItem("language") == null) {
+            sessionStorage.setItem("language", "en");
+            /* 
+                there's definitely a much more elegant way
+                of doing this other than just refreshing
+                the page but this is the only one that works
+                so far so fuck it man whatever this shit aint
+                nothin to me man
+            */
+            window.location.replace("../");
+        }
+        
     }
 }
 
