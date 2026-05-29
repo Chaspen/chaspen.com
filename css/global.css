@@ -18,7 +18,10 @@ body {
     font-family: "Comic Sans MS", "Comic Sans", "ComicSans", "LinjaPona" ;
     color: white;
     height: 100%;
+   
     margin: 0;
+    display: flex;
+
     background-image: linear-gradient(
       rgba(80, 80, 80, 0.5), 
       rgba(80, 0, 255, 0.45)

@@ -12,14 +12,14 @@ canvas:hover {
 }
 
 #main-txt {
-    	margin-top: 200px;
+    	margin-top: 180px;
     	color:white;
     	text-align: center;
     	/*Use built-in font if on windows, use ttf if otherwise*/
 }
 
 #links {
-    	margin-top: 1in;
+    	margin-top: 0.5in;
     	font-size: 30px;
 }
 
@@ -36,7 +36,7 @@ canvas:hover {
 
 #container {
     /*-- TO BE UNDONE--*/
-    display:none;
+    
     /*-----------------*/
     width: auto;
     height: auto;
@@ -46,7 +46,7 @@ canvas:hover {
 }
 
 .badge-container {
-    	margin-top: 0.5in;
+    	margin-top: 0.3in;
     	display: flex;
     	justify-content: center;
     	align-items: center;
@@ -92,4 +92,45 @@ header {
 
 #guestbook:visited {
     color: white;
+}
+
+#nowplaying {
+	display: flex;
+	margin-top: 20px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background: rgba(0,0,0,0.333);
+	width: 250px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#cover {
+	width: 70px;
+	left: 0;
+}
+
+.songwrap {
+	text-align: left;
+	padding-left: 10px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden; 
+	width: 150px;
+}
+
+#songtitle {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden; 
+	width: 150px;
+}
+
+#artist {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden; 
+	width: 150px;
 }
