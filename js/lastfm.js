@@ -8,12 +8,13 @@ async function LastPlayed(onfetch) {
         }
 
         const json = await response.json();
-        console.log(json);
-        console.log(json.track.name)
-        console.log(json.track.artist['#text'])
+        // console.log(json);
+        // console.log(json.track.name)
+        // console.log(json.track.artist['#text'])
         document.getElementById("cover").src = json.track.image[2]['#text']
         document.getElementById("artist").innerHTML = json.track.artist['#text'];
-        document.getElementById("songtitle").innerHTML = json.track.name
+        document.getElementById("songtitle").innerHTML = json.track.name;
+        document.getElementById("nowplaying").onclick = function(){ window.open(json.track.url) };
         
 
         onfetch();
