@@ -1,0 +1,41 @@
+@font-face {
+    font-family: UTDR-Normal;
+    src: url("../font/PixelOperator.ttf");
+}
+
+@font-face {
+    font-family: UTDR-Bold;
+    src: url("../font/PixelOperator-Bold.ttf");
+}
+
+
+html {
+    image-rendering: pixelated;
+}
+
+
+body {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: "UTDR-Normal";
+    color: white;
+    background-image: url("../img/bgsnowflake98.gif");
+    backdrop-filter: invert(1);
+    background-size: 100px;
+    background-color:black;
+    margin: 0;
+    padding: 50px;
+    box-sizing: border-box;
+    background-repeat: repeat;
+    background-size: 200px;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: rgb(128, 128, 128);
+}

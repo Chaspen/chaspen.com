@@ -1,0 +1,26 @@
+{
+    "landing": {
+        "warning": "Ta witryna wymaga wsparcia JavaScript do poprawnego działania.<br /><br />Ta witryna stara się odtworzyć wizualny styl stron GeoCities z wczesnych lat 2000, przez co może ona wywołać problemy dla osób z padaczką/epilepsją czy innym osobom podatnym na bodźce wizualne.",
+        "continue": "Kontynuować?"
+    },
+    "home": {
+        "main-txt" : "HEJKAA!!! ^-^ witaj na mojej super zajebistej STRONCE!!!!! <br/> kliknij na link poniżej, aby zobaczyć mój refsheet i inne linki!! <br /><br /> albo dowiedz się więcej <a href='about.html'>o mnie</a> :3",
+        "sona": "moja fursona!!!",
+        "links": "linki!!!"
+    },
+    "sona": {
+        "top-text": "pandka ruda | ona/ono | 5'9\"/175cm",
+        "preview": "(images here are low quality previews, click for full resolution)",
+        "credit": "art od"
+    },
+    "links": {
+        "socials": "socjale",
+        "media": "media",
+        "software": "softy"
+    },
+    "about": {
+        "p1": "hejj!!! nazywam się chloe/noelle (ona/ono), jestem pandką rudą i głównie zajmuję się webdevem, ale czasami maczam palce w innych rzeczach jak kodowaniem w pythonie, lua, c/c++, próbą portowania różnych programów, sysadminowaniem oraz wieloma innymi rzeczami!",
+        "p2": "jeśli nie można było tego jeszcze po mnie zauważyć to ja bardzo, ale to <b>BARDZO</b> uwielbiam pandki rude, ta co widzisz po lewej nazywa się Akana, moja duma i pociecha, moje dziecie, moje idealne ja, ona jest mną tak imo :3",
+        "p3": "mój workflow zależy od mojego setupu i w jakim języku piszę, tu jest lista programów z których korzystałam podczas pisania tej strony:"
+    }
+}

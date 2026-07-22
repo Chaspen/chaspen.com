@@ -1,0 +1,104 @@
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 150px;
+}
+
+h1 {
+	font-size: 64px;
+	font-family: "UTDR-Bold";
+	
+}
+
+#wrap {
+
+    background-color:black;
+	overflow:auto;
+	outline-style: solid;
+	width: 600px;
+	flex-shrink: 10;
+	height: 800px;
+
+	white-space: initial;
+}
+
+p {
+	text-align: center;
+	justify-content: center;
+	overflow-wrap: normal;
+	font-size: 32px;
+	white-space: initial;
+	margin-top: 0px;
+	transform: translateX(0.25px)
+}
+
+
+
+
+#nowplaying {
+	margin-top: 20px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background: rgba(0,0,0,0.333);
+	width: 250px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	transform: translateX(0.25px);
+	display: flex;
+}
+
+#cover {
+	width: 70px;
+	left: 0;
+}
+
+.songwrap {
+	align-content: center;
+	text-align: left;
+	padding-left: 10px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden; 
+	width: 150px;
+	font-size: 16px;
+	
+}
+
+#songtitle {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden; 
+	width: 150px;
+}
+
+#artist {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden; 
+	width: 150px;
+}
+
+#nowplaying {
+	cursor: pointer;
+}
+
+a {
+	margin-right: 5px;
+	margin-left: 5px;
+	color: grey;
+	
+}
+
+a:visited {
+	color: grey;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: white;
+
+}
