@@ -21,8 +21,7 @@ body {
     align-items: center;
     font-family: "UTDR-Normal";
     color: white;
-    background-image: url("../img/bgsnowflake98.gif");
-    backdrop-filter: invert(1);
+    background-image: url("../img/bgsnowflake98.png");
     background-size: 100px;
     background-color:black;
     margin: 0;
