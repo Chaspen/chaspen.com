@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: "UTDR-Normal";
+    color: white;
+    background-image: url("../img/bgsnowflake98.png");
+    background-size: 100px;
+    background-color:black;
+    margin: 0;
+    padding: 50px;
+    box-sizing: border-box;
+    background-repeat: repeat;
+    background-size: 200px;
+    
+}
+
+#wrap {
+    background-color:black;
+	overflow:auto;
+	outline-style: solid;
+	width: 100%;
+	flex-shrink: 10;
+	height: 100%;
+	max-height: 800px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#noelle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, 0);
+    position: absolute;
+    height: 40%;
+    width: fit-content;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
+
+p {
+    max-width: 600px;
+    margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+    font-size: 32px;
+    transform: translateX(0.25px);
+    
+}

@@ -19,16 +19,6 @@ section {
 	margin-right: auto;
 }
 
-#wrap {
-    background-color:black;
-	overflow:auto;
-	outline-style: solid;
-	width: 600px;
-	flex-shrink: 10;
-	height: 100%;
-	max-height: 800px;
-}
-
 a {
     color: white;
 }
