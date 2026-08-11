@@ -13,7 +13,6 @@ body {
     box-sizing: border-box;
     background-repeat: repeat;
     background-size: 200px;
-    
 }
 
 #wrap {
@@ -46,6 +45,7 @@ body {
 h1 {
     text-align: center;
     font-size: 100px;
+    font-family: "UTDR-Bold";
 }
 
 p {

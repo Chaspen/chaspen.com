@@ -21,8 +21,81 @@ section {
 
 a {
     color: white;
+	
 }
 
 a:visited {
     color: rgb(128, 128, 128);
+}
+
+#TopLinks {
+	display: flex;
+	flex-direction: row;
+	max-width: 600px;
+	font-size: 32px;
+	top: 0;
+	position: sticky;
+	width:100%;
+	z-index: 1;	
+	background-color: black;
+}
+
+#about, #links, #home {
+	display: flex;
+	text-align: center;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 32px;
+	transform: translateX(0.25px);
+	font-family: "UTDR-Bold";
+	width:inherit;
+}
+
+
+#about:hover, #links:hover {
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+#about> a, #links > a, #home > a {
+	color: white;
+	text-decoration: none;
+	width: inherit;
+	height: inherit;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+#about:hover > a, #links:hover > a {
+	color: black;
+}
+
+#home:hover {
+	background-color: white;
+	cursor: pointer;
+}
+
+#home:hover > a > img {
+	background-color: white;
+	filter: invert(1);
+}
+
+#about {
+	color:white;
+	border-bottom: solid white;
+	border-right: solid white;
+}
+
+#links {
+	border-bottom: solid white;
+}
+
+#home {
+	max-width: 50px;
+	border-right: solid white;
+	border-bottom: solid white;
 }

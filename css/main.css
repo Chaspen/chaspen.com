@@ -2,7 +2,8 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 150px;
+	height: 100px;
+	margin-top: 40px;
 }
 
 #wrap {
@@ -30,12 +31,14 @@ body {
     box-sizing: border-box;
     background-repeat: repeat;
     background-size: 200px;
+	z-index: 0;
 }
 
 h1 {
 	font-size: 64px;
 	font-family: "UTDR-Bold";
-	transform: translateX(0.25px)
+	transform: translateX(0.25px);
+	margin-top: 0px;
 	
 }
 
@@ -46,7 +49,8 @@ p {
 	overflow-wrap: normal;
 	font-size: 32px;
 	margin-top: 0px;
-	transform: translateX(0.25px)
+	position: relative;
+	transform: translateX(0.25px);
 }
 
 #nowplaying {
@@ -114,5 +118,4 @@ a:visited {
 
 a:hover {
 	color: white;
-
 }
